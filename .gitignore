@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+/frontend/node_modules/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Databases
+*.db
+backend/hcp_crm.db
+
+# Environment variables (private API keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+
+# Build outputs
+/frontend/build/
+dist/
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
